@@ -2,11 +2,11 @@
   "name": "mist-form-fresh",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://RMS1806.github.io/trackb-2", 
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:github": "vite build --base=/trackb-2/", 
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

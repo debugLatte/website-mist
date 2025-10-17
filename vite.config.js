@@ -4,7 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   // ADD THE 'base' PROPERTY HERE
-  base: '/trackb-2/', 
   plugins: [react()],
   // ... rest of the file if any
 })
