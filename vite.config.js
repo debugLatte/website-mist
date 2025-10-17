@@ -1,7 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// https://vitejs.dev/config/
 export default defineConfig({
+  // ADD THE 'base' PROPERTY HERE
+  base: '/trackb-2/', 
   plugins: [react()],
+  // ... rest of the file if any
 })
